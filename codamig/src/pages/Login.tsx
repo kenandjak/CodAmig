@@ -1,3 +1,4 @@
+import "../view/styles/login.scss";
 import logo_codamig from "../view/assets/logo_codamig.png";
 
 function Login() {
