@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}", "./index.html"],
   theme: {
     extend: {
+      screens: {
+        ms: "570px", // ms = mobile size
+      },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
