@@ -6,7 +6,7 @@
  <p align="center"> Esta é uma ideia para a construção de uma plataforma que busque 
  incentivar iniciantes em programação competitiva.</p>
  <p align="center">
-    <img alt="Página inicial da plataforma CodAmig@" src="assets/codAmig.png" width="500">
+    <img alt="Página inicial da plataforma CodAmig@" src="assets/codAmig2.png" width="500">
 </p>
 
 ## 💡 Propósito
