@@ -1,9 +1,11 @@
 //import "../view/styles/login.scss";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import logo_codamig from "../assets/logo_codamig.png";
 import { EyeOpenIcon, EyeClosedIcon } from "../components/AuthIcons";
 
 function Login() {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div className="min-h-screen bg-purple-soft flex flex-col items-center ms:flex-row">
@@ -73,6 +75,7 @@ function Login() {
             <div className="flex justify-center items-center">
               <button
                 type="submit"
+                onClick={() => navigate("/")}
                 className="w-32 bg-pink-imposing text-white text-xl font-bold py-3 px-8 rounded-xl hover:bg-pink-soft focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-soft transition-colors duration-600"
               >
                 Entrar

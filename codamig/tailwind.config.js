@@ -9,6 +9,12 @@ export default {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        "gradient-purple":
+          "linear-gradient(to right, #000000 60%, #210043 80%, #410087 100%)",
+        "gradient-purple-dark":
+          "linear-gradient(to bottom, #180032 0%, #0A0115 100%)",
+      },
       colors: {
         "purple-soft": "#C6A4EB",
         "pink-imposing": "#D3058E",
