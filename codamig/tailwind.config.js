@@ -8,6 +8,8 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        kdam: ['"Kdam Thmor Pro"', "sans-serif"],
+        jua: ["Jua", "sans-serif"],
       },
       backgroundImage: {
         "gradient-purple":
