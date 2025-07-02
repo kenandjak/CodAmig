@@ -18,7 +18,7 @@ function Header({ className }: Props) {
         <img
           src={logo}
           alt="Botão principal com logo do texugo"
-          className="w-14 ms:w-16 md:w-20"
+          className="w-14 ms:w-16 lg:w-20"
         />
       </Link>
     </header>

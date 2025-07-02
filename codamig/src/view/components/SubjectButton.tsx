@@ -15,7 +15,7 @@ function SubjectButton({ subject, level, onClick, className }: Props) {
     <button
       onClick={onClick}
       className={classNames(
-        "w-52 h-36 p-4 bg-pink-imposing rounded-2xl flex items-center justify-between relative",
+        "w-52 h-36 p-4 bg-pink-imposing rounded-2xl flex items-center justify-between relative hover:bg-pink-soft transform transition-transform duration-300 hover:scale-110",
         className
       )}
     >

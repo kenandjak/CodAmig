@@ -22,7 +22,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-gradient-purple-dark flex flex-col items-center">
       <Header />
-      <div className="mt-20 flex flex-col items-center gap-20">
+      <div className="mt-20 flex flex-col items-center gap-20 ms:grid ms:grid-cols-2 ms:gap-x-20 ms:gap-y-20 lg:gap-x-48">
         {subjectsData.map((subjectItem) => (
           <SubjectButton
             key={subjectItem.id}
