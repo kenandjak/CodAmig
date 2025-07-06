@@ -76,7 +76,7 @@ function Login() {
               <button
                 type="submit"
                 onClick={() => navigate("/")}
-                className="w-32 bg-pink-imposing text-white text-xl font-bold py-3 px-8 rounded-xl hover:bg-pink-soft focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-soft transition-colors duration-600"
+                className="w-32 bg-pink-imposing text-white text-xl font-bold py-3 px-8 rounded-xl hover:bg-pink-soft transform duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-soft transition-colors duration-600"
               >
                 Entrar
               </button>

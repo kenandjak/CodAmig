@@ -19,6 +19,8 @@ export default {
       },
       colors: {
         "purple-soft": "#C6A4EB",
+        "purple-light": "#3B067B",
+        "purple-heavy": "#310163",
         "pink-imposing": "#D3058E",
         "pink-soft": "#FF56C7",
         "dark-app-black": "#0A0115",
